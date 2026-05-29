@@ -1,0 +1,13 @@
+{
+    "name": "com.gothic.core.binaries",
+    "version": "1.7.0",
+    "hideInEditor": false,
+    "displayName": "Core-binaries",
+    "description": "Binaries normally stored inside LFS. For sake of simplicity and cost neutrality, we load them from here.",
+    "documentationUrl": "https://github.com/Gothic-Unity-Project/binary-dependencies",
+    "licensesUrl": "https://github.com/Gothic-Unity-Project/binary-dependencies/blob/main/LICENSE",
+    "author": {
+      "name": "Gothic Unity Team",
+      "url": "https://github.com/Gothic-Unity-Project/Gothic-Unity"
+    }
+}
