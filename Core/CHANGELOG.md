@@ -9,7 +9,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ### Added
 - NVorbis.dll (v0.10.5, MIT) - managed Ogg Vorbis decoder used for mod dubbing (moved from Gothic-Unity/Assets/Plugins/NVorbis)
-- License files for every bundled component (ZenKit, ZenKitCS, ZenKitCAPI, libsquish, mio, dmusic, dmusic-cs, Mono I18N)
+- License files for every bundled component (ZenKitCS, ZenKitCAPI, dmusic, dmusic-cs, NVorbis, Mono I18N)
 
 ### Changed
 - Each dependency now lives in its own folder (`ZenKit/`, `dmusic/`, `NVorbis/`, `I18N/`) next to its license file(s). `.meta` GUIDs are unchanged.

@@ -3,7 +3,7 @@ its license file(s).
 
 | Folder     | Files                                                     | License                    |
 |------------|-----------------------------------------------------------|----------------------------|
-| `ZenKit/`  | ZenKit.dll, zenkitcapi.dll, libzenkitcapi.so              | MIT (incl. libsquish, mio) |
+| `ZenKit/`  | ZenKit.dll, zenkitcapi.dll, libzenkitcapi.so              | MIT                        |
 | `dmusic/`  | dmusic.dll, libdmusic.so, DirectMusic.dll                 | MIT (Modern Variant)       |
 | `NVorbis/` | NVorbis.dll (v0.10.5)                                     | MIT                        |
 | `I18N/`    | I18N.dll, I18N.MidEast.dll, I18N.Other.dll, I18N.West.dll | MIT (Mono)                 |
@@ -11,8 +11,7 @@ its license file(s).
 * ZenKit.dll - Managed .NET library (https://github.com/GothicKit/ZenKitCS); can be used on linux systems as well;
   _extern_ bridge between libzenkitcapi and Unity
 * zenkitcapi.dll / libzenkitcapi.so - Unmanaged C library (https://github.com/GothicKit/ZenKitCAPI) wrapping
-  ZenKit (https://github.com/GothicKit/ZenKit); actual Gothic asset parser logic. Statically includes libsquish
-  and mio.
+  ZenKit (https://github.com/GothicKit/ZenKit); actual Gothic asset parser logic
 * dmusic.dll / libdmusic.so - DirectMusic reimplementation (https://github.com/GothicKit/dmusic)
 * DirectMusic.dll - Managed .NET bindings for dmusic (https://github.com/GothicKit/dmusic-cs)
 * NVorbis.dll - Managed .NET library (https://github.com/NVorbis/NVorbis); Ogg Vorbis decoder for mods shipping
