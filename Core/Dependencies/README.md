@@ -2,6 +2,7 @@ This project relies on the following dll/so libraries:
 * ZenKit.dll - Managed .NET library; can be used on linux systems as well; _extern_ bridge between libzenkitcapi and Unity
 * libzenkitcapi.* - Unmanaged C library; actual Gothic asset parser logic; *.a for some Windows builds and *.so for arm64
 * libdmusic-* / DMCs.dll - Music related implementations from DirectMusic
+* NVorbis.dll - Managed .NET library (v0.10.5, MIT, see NVorbis/LICENSE.txt); Ogg Vorbis decoder for mods shipping dubbing as .ogg - https://github.com/NVorbis/NVorbis
 * I18N.*.dll - Managed .NET library from Mono. Required to get Windows codepages inside builds. Taken from _INSTALL_DIR\Unity\Hub\Editor\VERSION\Editor\Data\MonoBleedingEdge\lib\mono\gac\*_
 
 
